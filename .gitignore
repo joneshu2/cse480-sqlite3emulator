@@ -1,0 +1,48 @@
+# --------------------
+# macOS files
+# --------------------
+.DS_Store
+
+# --------------------
+# Python files/folders
+# --------------------
+__pycache__/
+.pytest_cache
+.py
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --------------------
+# Virtual environments
+# --------------------
+.venv/
+venv/
+env/
+
+# --------------------
+# SQLite dtabase files
+# --------------------
+*.db
+*.sqlite3
+
+# --------------------
+# Log files
+# --------------------
+*.log
+
+# --------------------
+# Visual Studio Code
+# --------------------
+.vscode/
+*.code-workspace
+.history/
+
+# --------------------
+# Environment variables/secrets files
+# --------------------
+.env
+.env.*
